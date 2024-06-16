@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+h1 {
+    color: red;
+}
+p{
+    color: red;
+    font-family: "Nunito Sans"
+}
+.calculadora{
+    background-color: black;
+    width: 350px;
+    height: 700px;
+}
+.pantalla{
+    background-color: aqua;
+    height: 260px;
+
+}
+.pantalla p{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.teclado {
+    display: grid;
+}
