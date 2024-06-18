@@ -1,28 +1,32 @@
 body {
     background-color: beige;
 }
+.contenedor {
+    background-color: rgb(0, 0, 0);
+    width: 430px;
+    height: 932px;
+}
 .pantalla {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border: 2px solid rgb(255, 0, 0);
     background-color: #D9D9D9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     width: 430px;
     height: 355px;
+    border-radius: 0% 0% 10% 10%;
     p{
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
-        font-size: 60px;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 150px;
     }
 }
 .teclado {
     display: flex;
     flex-wrap: nowrap;
-    border: 2px solid rgb(255, 0, 0);
-    background-color:rgb(37, 37, 37);
+    background-color:rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     width: 430px;
@@ -37,6 +41,10 @@ body {
     margin-top: 34px;
     background-color: #D9D9D9;
     color: white;
+    border-radius: 50% 50% 50% 0%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btnπ {
     width: 50px;
@@ -44,6 +52,11 @@ body {
     border: 0px;
     margin-right: 41px;
     background-color: #D9D9D9;
+    color: white;
+    border-radius: 50% 50% 50% 0%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btnEx {
     width: 50px;
@@ -51,6 +64,11 @@ body {
     border: 0px;
     margin-right: 41px;
     background-color: #D9D9D9;
+    color: white;
+    border-radius: 50% 50% 0% 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn10 {
     width: 50px;
@@ -58,6 +76,11 @@ body {
     border: 0px;
     margin-right: 41px;
     background-color: #D9D9D9;
+    color: white;
+    border-radius: 50% 50% 0% 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btnAC {
     width: 80px;
@@ -65,24 +88,48 @@ body {
     border: 0px;
     margin-left: 30px;
     margin-top: 34px;
+    background-color: #967F09;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn11 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn12 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn13 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn7 {
     width: 80px;
@@ -90,24 +137,48 @@ body {
     border: 0px;
     margin-left: 30px;
     margin-top: 12px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn8 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn9 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btnX {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn4 {
     width: 80px;
@@ -115,24 +186,48 @@ body {
     border: 0px;
     margin-left: 30px;
     margin-top: 12px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn5 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn6 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn- {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn1 {
     width: 80px;
@@ -140,12 +235,24 @@ body {
     border: 0px;
     margin-left: 30px;
     margin-top: 12px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .btn2 {
     width: 80px;
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btn3 {
@@ -153,6 +260,12 @@ body {
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btn14 {
@@ -160,6 +273,12 @@ body {
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D18F8F;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btn0 {
@@ -168,6 +287,12 @@ body {
     border: 0px;
     margin-left: 30px;
     margin-top: 12px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btn15 {
@@ -175,6 +300,12 @@ body {
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btnDELETE {
@@ -182,6 +313,12 @@ body {
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .btn16 {
@@ -189,6 +326,12 @@ body {
     height: 80px;
     border: 0px;
     margin-left: 10px;
+    background-color: #C34040;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 
